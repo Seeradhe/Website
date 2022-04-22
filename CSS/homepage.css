@@ -1,0 +1,92 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+
+
+
+/* #region  Divs */
+.spacerDiv {
+    padding: 1em;
+}
+
+.contentDiv {
+    background-color: #F5F5F5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* #endregion */
+
+
+
+
+
+
+/* #region  NavBar */
+.topnav {
+    background-color: #0D1F2D;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: .75em 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #9EA3B0;
+    color: white;
+}
+/* #endregion */
+
+
+
+
+
+/* #region  Font-Size */
+/* Uses vh and vm with calc */
+@media screen and (max-width: 720px) {
+
+    /* smartphones breakpoint */
+    html {
+        font-size: 12px
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+
+    /* tablets */
+    html {
+        font-size: 16px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* laptops */
+    html {
+        font-size: 20px
+    }
+}
+
+/* #endregion */
