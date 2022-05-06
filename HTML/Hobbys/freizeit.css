@@ -51,7 +51,7 @@ h2{
 
 /* #region  Divs */
 .spacerDiv {
-    padding: 1em;
+    padding: .5em;
 }
 
 .contentDiv {
@@ -60,6 +60,30 @@ h2{
     padding-bottom: 1em;
 }
 
+.BooksContainer{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    gap: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+}
+
+.BooksItem{
+    flex-grow: 1;
+    max-width: 14em;
+    height: 9em;
+    background-color: blueviolet;
+}
+
+.booksImage{
+    height: 100%;
+    width: 70%;
+}
 /* #endregion */
 
 
